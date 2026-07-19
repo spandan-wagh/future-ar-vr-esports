@@ -1,1 +1,26 @@
+Day 1 - Fundamentals and understanding of XR, AR, VR, MR
+
+XR(Extended Reality) - It is the branch that includes AR, VR, MR
+It basically is the extended perception of reality than simply showing it on a screen.
+
+AR(Augmented Reality) - It is a type of extended reality in which virtual objects are 
+introduced in the real world. Simple examples of current AR can be seen in an called Snapchat
+where virtual objects can be seen placed in the real world, similar tech is also used in Pokemon GO.
+Though these virtual objects do not actually interact with the physical world.
+
+VR(Virtual Reality) - Virtual reality is when the real world is swapped with the virtual world.
+The VR tech usually uses head and controller tracking from the real world to the
+virtual world.
+
+MR(Mixed Reality) - Mixed reality combines both the elements of AR and VR. Here, virtual objects 
+are introduced in the real world and can be interacted meaningfully with this world like being attached
+to objects or responding to physical events
+
+Conclusion
+-XR is like an umbrella for AR,VR,MR
+-AR adds virtual content to the real world.
+-VR swaps the real world with virtual world.
+-MR aims to blend the virtual and real world by bringing virtual objects
+to real world and being able to seamlessly interact with them.
+
 
