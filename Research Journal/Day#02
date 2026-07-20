@@ -1,0 +1,40 @@
+Day#02 - Understanding VR tracking and performance
+
+Frame Rate - 
+--Frame rate is the number of images(frames) displayed per second on the screen. Its unit if FPS(Frames Per Second). In virutal reality high framerate is very essential
+as if the framerate drops too low, the virtual world may lag behind the user's movement, which can lead to discomfot or motion sickeness.
+--For Virtual reality, the comfortable frame rate is between 90-110 as it causes smooth movements and low latency. 
+
+Tracking -
+
+1) Inside-out tracking -
+--Inside-out tracking is a tracking method in which the cameras and sensors are attached in the headset itself, 
+--These cameras observe surrounding environment and use it as reference points to deternmine the headset's movement and postion is realtime.
+
+Advantages - 
+--Easy to set up
+--No external cameras or setup required
+
+Disadvantages - 
+--Tracking accuracy can decrease if the cameras or sensors can't see the surroundings clear(Ex. in darkness)
+--Controllers may lose tracking if they move out of the camera's field of view.
+
+
+2)Outside-in tracking - 
+--Outside-in tracking is a tracking method in which there are external cameras and sensors which are placed around the play area.
+--These cameras externally track the physical movements of the headset and controller and track it in the virtaul world.
+
+Advantages - 
+--As the cameras and sensors are external, the tracking is highly acurrate and precise.
+--Commonly used in professional VR setups and is usually better for large movements
+
+Disadvantages - 
+--Requires external cameras and sensors
+--Takes longer to setup and less portable
+
+Conclusion - 
+I learnt that smooth vr experience not only requires powerful hardware but also and accurate tracking of headset and controllers and high frame rates. I understood these different types 
+of tracking which are inside-out and outside-in tracking and their pros and cons. If you value convenience and easy setup then inside-out tracking and if you want maximum precision and ultra
+low latency then outside-in tracking is superior.
+
+
