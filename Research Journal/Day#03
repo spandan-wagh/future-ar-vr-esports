@@ -1,0 +1,26 @@
+Day#03 - Degrees Of Freedom in VR
+
+Degree Of Freedo(DOF) - In virtual reality, DOF refers to the number of ways user can move within the virtual environment.
+There are two main types of tracking that describe how a headset follows your physical movements, 3-DOF and 6-DOF.
+
+3DOF -
+--In 3-DOF, movement is limited to 3 rotational axes.
+--These three axes allow the user to turn head left or right(yawing), looking up or down(pitching), or tilting the head side to side.
+--If you move your feet, your perspective in virtual environment stays locked in and doesnt move.
+
+6DOF -
+--In 6-DOF, movement include the 3 rotational axes as well as the 3 translational axes.
+--It enables a fully immersive and realistic VR experience.
+--These three translational axes allow the user to move their bodies left or right(strafing), forward or backward(surging), upwards or downwards(elevating).
+
+3DOF vs 6DOF -
+-- 3DOF and 6DOF can be compared as 360° content vs Immersive VR.
+--While 3DOF is good for viewing 360° content, theres no way ot move closer or furhter away from objects in the virtual environmen, which can be done by 6DOF.
+--6DOF model allows us to have a fully realistic experience in the virtual world that can be explored and inspected in detail.
+
+ Conclusion - 
+I learnt today that there are two ways of physical tracking which are 3DOF and 6DOF. 3DOF restricts your movement fro a fixed anchor point. While 6DOF unlocks
+full, life-like physical locomotion and interaction by tracking both your head rotation and your physical footsteps.
+
+#Sources - https://www.strivr.com/blog/6dof-vs-3dof-understanding-importance
+          
