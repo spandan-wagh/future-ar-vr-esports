@@ -1,0 +1,36 @@
+Day#04 - Working and functioning of a vr headset
+
+Introduction - VR headsets need multiple different sensors to understand the movement of user and provide accurate tracking. 
+
+Components of a VR Headset -
+1)Gyroscope - 
+-- It calculates the total rotational movement of the vr headset.
+-- It detects whether the user turns left or right(yaw), looks up or down(pitch), or tilt their head(yaw)
+--It helps the virtual world rotate smoothly corresponding to the users rotational movement.
+
+2)Accelerometer-
+--An accelerometer measures the change in speed and direction.
+--It also detects the direction of gravity helping the vr headset know it's orientation.
+--It works together with gyroscope to increase the 
+accuracy of the vr headset
+
+3)Cameras-
+--As said in the previous logs, there can be cameras attached internally in the headset or externally in the play area.
+--These cameras observe the surroundings and identify reference points which helps the user move in the virtual world.
+
+4)IMU(Inertial Measurement Unit)-
+--An IMU is a combination of sensors that mostly includes the gyroscope and accelerometer.
+--It continuosly keeps tracks of the users movements and orientation and provides fast tracking information allowing the headset to respond quickly to that information.
+
+5)Sensor Fusion-
+--An single sensor can't provide perfect tracking.
+--VR headsets combine information received from the IMU and cameras using a process called sensor fusion.
+--This improves tracking accuracy and can reduce errors which the sensors can make individually.
+
+Conclusion - Today I learnt that VR headsets rely on several sensors that work together to give quick responses to the headset rather than individually. The gyroscope tracks rotation, the accelerometer tracks acceleration and gravity, and cameras observe the surroundings to identify reference points. VR headsets provides accurate and responsive trackings with the help of these sensors working together.
+
+Sources -
+--chatgpt.com
+--https://www.allpcb.com/allelectrohub/inside-vr-headsets-key-hardware-components
+
+
