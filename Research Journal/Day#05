@@ -1,0 +1,30 @@
+Day#05 - Motion Sickness and latency
+
+Introduction - Many VR users experience extreme nausea or dizziness while using a VR headset. That's because of motion sickness or latency in 
+system.
+
+Motion Sickness - 
+--Motion sickness is caused due to sensory mismatch.
+--This can happen when the player is the VR World is moving and the physical body is still.
+--This mismatch between eyes and brain can cause motion sickness.
+
+Latency in VR - 
+--As learnt in our previous days, high latency is VR can cause nausea and discomfort.
+--This is because there is a difference in time between the users head movement and its update in the virtual world.
+--High latency can make the virtual world feel unresponsive and may cause motion sickness.
+
+Motion-to-photon latency - 
+--This is the total time between the users head movement and the movement reflected on the display.
+--This depends on several factors like sensors,tracking system,etc.
+--Modern VR Headsets try to keep this delay as low as possible to improve comfort.
+
+Real World Example - 
+--Meta Quest 3 uses low latency tracking, fast display and high refresh rates to reduce motion sickness and give the user a better experience.
+
+Conclusion - 
+Today I learnt that motion sickness is caused due to the mismatch of what our eyes see on display and what our body feels. I also learnt Motion-to-photon
+latency which should be as less as possible for a comforting VR experience. For a smooth and enjoyable VR experience latency must be as low as possible.
+
+Sources - 
+https://virtualspeech.com/blog/motion-sickness-vr
+chatgpt.com
