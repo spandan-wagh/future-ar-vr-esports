@@ -1,0 +1,26 @@
+Day#06 - Spatial computing
+
+Introduction -
+--Spatial Computing is a technology in which digital world combines with the real world by displaying virtual objects into real space instead of screen.
+--This also involves the user interacting with this virtual objects 
+
+How does it work? -
+--Cameras and sensors visualize and interpret the physical room, tracking objects and human movement in real time.
+--It merges data from several inputs like IMU, cameras, etc.
+--It then created a live 3D map of the physical space so digital items can anchor to the real surfaces.
+
+Advantages-
+--It was a huge milestone for immersive arvr technology.
+--It helps in visual learning.
+--It is also used in architecture design, interior design, etc.
+
+Real world Example -
+--visionOS from Apple is a Spatial computing device.It understands the physical world and make the virtual objects (3D or 2D) anchored in the real space.
+
+Sources-
+--Apple Developer - visionOS Documentation -
+https://acg.media.mit.edu/people/simong/transfers/layout.pdf
+--https://acg.media.mit.edu/people/simong/transfers/layout.pdf
+--chatgpt.com
+
+
