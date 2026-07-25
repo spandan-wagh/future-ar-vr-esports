@@ -1,0 +1,18 @@
+# Week 1 Research Journal Summary
+
+During the first week of my AR/VR research journey, I focused on building a strong understanding of the core technologies behind Extended Reality (XR).
+Rather than jumping directly into development, I studied the fundamental concepts that enable modern VR and AR systems to function effectively.
+
+Throughout the week, I explored the different types of immersive technologies (XR, AR, VR, and MR), learned how VR headsets track user movement using
+inside-out and outside-in tracking systems, and understood the importance of six degrees of freedom (6DOF) for creating realistic experiences. I also studied the hardware inside VR headsets, including sensors such as gyroscopes, accelerometers, cameras, and IMUs, and learned how these components work together to provide accurate motion tracking.
+
+In addition, I researched common VR challenges such as motion sickness and latency, gaining an understanding of how system performance directly affects
+user comfort. The week concluded with an introduction to Spatial Computing, where I learned how digital objects can understand, interact with, and remain
+anchored to the physical environment.
+
+The topic that interested me the most this week was Spatial Computing because it showed me that XR extends far beyond gaming. Learning how digital content
+can seamlessly integrate with the physical world gave me a broader perspective on the potential of immersive technologies in fields such as education,
+healthcare, architecture, manufacturing, and many other industries.
+
+Overall, this week established a solid theoretical foundation for future research. The knowledge gained will support upcoming topics such as OpenXR, SLAM,
+hand tracking, eye tracking, and Unreal Engine XR development, ultimately preparing me to build immersive spatial computing applications.
