@@ -1,0 +1,25 @@
+Day#08 - OpenXr
+Introduction--
+--OpenXR is an royalty-free open source platform which provides a common set of apis for developing XR applications that run across a wide range of AR & VR devices.
+--It was made by the Khronos group, and it acts as a universal API bridge to XR applications and physical hardware
+
+What actually does it do?
+--Before OpenXR, if u had to make a game u would have needed to write seperate rendering, tracking,and input logic from scratch.
+--Developers write their AR/VR application against the OpenXR API once and the application will run natively on that device without changing the core engine logic.
+
+How does AR/VR work?
+--OpenXR provides a common interface between XR applications and XR hardware.
+-- Instead of communicating directly with each headset, an application communicates with the OpenXR runtime.
+-- The OpenXR runtime translates the application's requests into commands that work with the connected headset.
+-- This allows the same application to run on different OpenXR-compatible devices without major code changes
+
+Real world example--
+--Unreal Engine supports OpenXR through its OpenXR plugin. Developers can create XR applications that work on multiple OpenXR-compatible headsets without writing separate code for each device.
+--Similar for unity engine.
+--Meta Quest.
+
+Sources--
+--Khronos OpenXR documentation.
+--Chatgpt(For conceptual understanding).
+
+
