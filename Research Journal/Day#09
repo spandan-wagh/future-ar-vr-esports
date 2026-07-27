@@ -1,0 +1,26 @@
+#Day09 - SLAM(Simultaneous Localization and Mapping)
+
+What is SLAM?
+--SLAM(Simulataneous Localization and Mapping) is the core technology AR and VR deivces use to map unknown surroundings and track user 
+positin in real time.
+--It handles Inside-out tracking(as I documented before),surface detection, and spatial alignment in real time without external base.
+
+How does SLAM work in Immersive Tech?
+--Sensing: Cameras and inertial measurement units (IMUs) gather raw visual and motion data from the physical room.
+--Localization: The system calculates where the headset or phone is located and how it moves relative to the room.
+--Mapping: It builds a 3D point cloud or structural mesh of walls, floors, and objects so virtual items stay fixed in place.
+
+Limitations--
+--Poor lighting.
+--Blank walls with few visual features.
+--Reflective surfaces.
+--Fast movement can reduce tracking quality.
+
+Real World Example--
+--Meta Quest 3 & Apple Vision Pro: These headsets use four or more built-in cameras to continuously scan your living room.
+--SLAM processes this data to track your head movement (inside-out tracking) and map your furniture so you do not crash into walls.
+
+Conclusion--
+--Today I learnt that SLAM is one of the core technologies behind modern AR and VR systems. It allows a headset to understand its 
+surroundings while simultaneously tracking its own position in realtime. This enales features like inside-out-tracking, surface 
+detection and accurate placement of virtual things possible without external base.
