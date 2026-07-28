@@ -4,6 +4,7 @@ Introduction--
 --Hand tracking in AR/VR is a controller-free input method that uses cameras, sensors, and machine learning to map skeletal joints, 
 enabling natural user interactions like pinching, grabbing, and gesturing
 
+1. Camera-Based Hand Tracking (Most Common Today)--
 How It Works--
 --Sensor Input: Headset or external cameras capture infrared or visible light images of the hands.Neural Networks:
 AI models process frames to segment pixels and identify hand locations.
@@ -21,8 +22,30 @@ This allows users to interact with menus, press virtual buttons, and grab virtua
 -- Apple Vision Pro uses multiple cameras and advanced computer vision algorithms to track the user's hands and finger movements.
 Users can select apps, scroll, and interact with virtual content using natural hand gestures.
 
+2. Glove-Based Hand Tracking--
+How it works--
+-- The user wears special gloves fitted with sensors on the fingers and hand.
+-- These sensors measure finger bending, hand movement, and sometimes the force applied by the hand.
+-- The collected data is sent to the computer or XR headset, which creates a virtual hand that mirrors the user's real hand movements in real time.
+
+Core Benefits--
+-- Provides highly accurate tracking of finger and hand movements.
+-- Can track hands even when cameras cannot see them (for example, behind the back or outside the headset's field of view).
+-- Some advanced gloves can simulate the feeling of touch (haptic feedback), making interactions more realistic.
+-- Commonly used in medical training, industrial simulations, robotics, and research where high precision is required.
+
+Real World Example--
+--HaptX Gloves are used in industrial training, robotics, and research. They use sensors to accurately track finger and hand movements while also providing haptic feedback,
+allowing users to feel and manipulate virtual objects more realistically.
+-- SenseGlove Nova is used in engineering, medical training, and VR simulations. It tracks hand movements and provides force feedback, allowing users to interact naturally
+with virtual objects.
+
+
 Sources--
 --ChatGPT/Gemini(For Conceptual understanding and Info)
+--HaptX Documentation-https://haptx.com/?utm_source=chatgpt.com
+--SenseGlove Documentation-https://www.senseglove.com/?utm_source=chatgpt.com
+
 
 Conclusion--
 
