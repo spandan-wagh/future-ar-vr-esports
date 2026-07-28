@@ -1,0 +1,30 @@
+Day#10 – Hand Tracking in AR/VR
+
+Introduction--
+--Hand tracking in AR/VR is a controller-free input method that uses cameras, sensors, and machine learning to map skeletal joints, 
+enabling natural user interactions like pinching, grabbing, and gesturing
+
+How It Works--
+--Sensor Input: Headset or external cameras capture infrared or visible light images of the hands.Neural Networks:
+AI models process frames to segment pixels and identify hand locations.
+--Skeleton Mapping: Software calculates 3D positions for knuckles, fingertips, and joints to mirror movements in virtual space.
+
+Core Benefits and UsesNatural Interaction--
+--Users interact with virtual objects using familiar, real-world muscle memory without holding physical devices.
+--Direct Manipulation: Grab, push, tap, and rotate UI elements or 3D models smoothly using simple pinches or palm gestures.
+--Immersive Engagement: Eliminating hardware controllers increases user attention and presence during training, gaming, and design reviews
+
+Real World Example--
+
+-- Meta Quest 3 uses built-in cameras and AI-based hand tracking to detect the position of the user's hands and fingers. 
+This allows users to interact with menus, press virtual buttons, and grab virtual objects without using controllers.
+-- Apple Vision Pro uses multiple cameras and advanced computer vision algorithms to track the user's hands and finger movements.
+Users can select apps, scroll, and interact with virtual content using natural hand gestures.
+
+Sources--
+--ChatGPT/Gemini(For Conceptual understanding and Info)
+
+Conclusion--
+
+-- Today I learned that hand tracking allows users to interact with virtual environments using their natural hand and finger movements instead of controllers.
+I also learned that modern XR headsets use cameras, computer vision, and AI to detect hand poses in real time, making interactions more immersive and intuitive.
