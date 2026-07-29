@@ -1,0 +1,41 @@
+Day#11-Eye Tracking & Foveated Rendering
+
+Introduction--
+--Eye tracking foveated rendering is a graphics trick that saves computer power,improves image clarity, and matches natural human vision 
+by rendering high resolution only where you look. It tracks your eyes and blurs the outer edges.
+--Eye tracking and foveated rendering are two differnt technologies.
+
+                                                 Eye Tracking
+                                                      ↓
+                                         Knows where you are looking
+                                                      ↓
+                                              Foveated Rendering
+                                    Uses that information to reduce GPU work
+
+How it works--
+--The Fovea Zone: The computer draws crisp, clear images directly in the tiny center spot of your eye focus.The Peripheral Zone: 
+The computer draws blurry or low-detail images in the outer areas because your eyes cannot see fine details there anyway.Real-Time Tracking: Tiny cameras inside a headset
+watch your pupils and shift the clear zone instantly as your eyes move.
+
+Main Benefits--
+--Less GPU Work: The graphics card processes far fewer total pixels, reducing system strain.Better Performance: Virtual reality games run faster, smoother,
+and with fewer frame drops.Cooler Hardware: Lower workloads mean devices use less battery and run at cooler temperatures
+
+Real World Example – Eye Tracking
+
+-- Apple Vision Pro uses infrared cameras to track the user's eye movements, allowing users to select apps, navigate menus, and interact with the interface simply by looking at objects.
+
+-- PlayStation VR2 uses eye tracking to improve gameplay interaction and enable eye-tracked foveated rendering, which helps increase graphics performance.
+
+Real World Example – Foveated Rendering
+
+-- PlayStation VR2 uses eye-tracked foveated rendering to render the area the user is directly looking at in high quality while rendering the peripheral areas at a lower resolution. 
+This improves performance without noticeably reducing image quality.
+
+Sources--
+-MetaHorizon-https://developers.meta.com/horizon/documentation/unity/unity-eye-tracked-foveated-rendering/
+-Gemini/Chatgpt(for conceptual understanding)
+Conclusion
+
+-- Today I learned that eye tracking allows XR headsets to detect where the user is looking using infrared cameras and computer vision. I also learned that foveated rendering uses this 
+information to render only the area of focus in high quality while reducing detail in the peripheral vision. Together, these technologies improve user interaction, graphics performance, and the overall immersive experience.
