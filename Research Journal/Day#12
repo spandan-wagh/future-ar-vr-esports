@@ -1,0 +1,35 @@
+Day#12 - Passthrough Mixed Reality
+
+Introduction--
+--Passthrough Mixed Reality uses external headset cameras to display the real world inside a virtual environment, blending physical and digital objects together. 
+Popular devices supporting this include the Meta Quest 3 and Apple Vision Pro.
+
+ How It Works--
+--Camera Feed: Real-time video from outward-facing sensors streams inside the displays.
+--Digital Blending: Virtual screens, games, and objects appear directly in your physical room.
+
+Types of Passthrough--
+1. Black-and-White / Grayscale Passthrough-
+--Primary Purpose: It was originally designed purely for safety (like setting up your Guardian boundary) rather than true mixed reality gaming.
+--Visual Experience: The world looks like a grainy, night-vision security feed. It is difficult to read phone screens or see fine details.
+--Famous Examples: Meta Quest 2, Valve Index, PlayStation VR2.
+
+2. Full-Colour Passthrough-
+--This type adds high-resolution RGB colour cameras alongside depth sensors to recreate a natural look.
+--Primary Purpose: Built specifically for true mixed reality, letting you interact seamlessly with digital objects in your actual room.
+--Visual Experience: The world looks realistic, vibrant, and geometrically accurate, making it sharp enough to read a phone or computer screen.
+--Famous Examples: Meta Quest 3, Apple Vision Pro, Pico 4.
+
+Advantages--
+--Productivity: Enable users to collaborate with a remote team of co-workers or friends through virtual monitors, while accessing their physical keyboard and desk.
+--Gaming: Create games that blend the excitement of a virtual world into the comfort and familiarity of the real world, like zombies hiding in your living room.
+--Co-located Social Presence: Allow users to be both engaged in your virtual content and able to interact with people and pets in the same room, at the same time.
+
+Sources--
+--MetaHorizon-->https://developers.meta.com/horizon/blog/mixed-reality-with-passthrough/
+--Chatgpt/Gemini(For conceptual understanding)
+
+Conclusion--
+---- Today I learned that Passthrough Mixed Reality bridges the gap between the physical and digital worlds. Unlike traditional VR, it allows users to remain aware of their
+surroundings while interacting with virtual conten. As camera technology and computer vision continue to improve, I think passthrough MR will become one of the most important
+technologies for the future of immersive computing.
