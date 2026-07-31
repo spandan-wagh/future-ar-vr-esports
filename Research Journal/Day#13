@@ -1,0 +1,35 @@
+Day#13 - Scene Understanding & Spatial Mapping
+
+Introduction--
+--Scene understanding in Virtual Reality (and Mixed Reality) is the computer's ability to scan, map, and label physical real-world rooms (walls, floors, furniture)
+so digital objects can realistically interact with physical spaces. Key functions include surface mapping, semantic labeling, and collision detection.
+
+How it works--
+--Scanning: Cameras and sensors on the headset map the shape of your room.
+--Labeling: Artificial intelligence gives names to items, identifying a floor, wall, desk, or couch.
+--Interaction: Virtual items can bounce off your real walls or digital characters can sit on your physical sofa.
+
+Advantages--
+--Realism: Virtual objects hide behind real furniture (occlusion) instead of floating strangely.
+--Safety: Virtual characters or tools navigate around your actual room layout safely without hitting real obstacles.
+--Mixed Reality: Blurs the line between the real world and digital content seamlessly.
+
+Real World Example--
+1)Apple Vision Pro
+
+--Apple Vision Pro uses scene understanding and spatial mapping to recognize walls, floors, tables, windows, and furniture.
+--This allows virtual apps and objects to remain anchored in the correct positions within the user's environment.
+
+2)Meta Quest 3
+
+--Meta Quest 3 scans the user's room to create a 3D spatial map.
+--Mixed reality games and applications use this map to place virtual objects on real surfaces and avoid obstacles in the room.
+
+Sources--
+--MetaHorizon-https://developers.meta.com/horizon/design/mr-design-scene/
+--Chatgpt/Gemini(for conceptual understanding)
+
+Conclusion--
+-- Today I learned that scene understanding and spatial mapping allow XR devices to understand not only where the user is located but also what objects exist 
+in the surrounding environment. By recognizing surfaces such as walls, floors, and tables, virtual objects can be placed more naturally and remain stable as the user moves. 
+These technologies make mixed reality experiences more realistic, interactive, and useful for everyday applications.
