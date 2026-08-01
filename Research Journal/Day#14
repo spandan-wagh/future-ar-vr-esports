@@ -1,0 +1,32 @@
+Day#14 - Spatial Anchors in MR
+
+Introduction--
+--fixed digital reference points that lock virtual 3D objects to precise physical locations in the real world.
+--They ensure augmented and mixed reality content stays stable, persists across different app sessions, and lines up correctly for multiple users.
+
+How They Work--
+--Sensor scanning:Devices use cameras and depth sensors to map room features like edges, corners, and surfaces.
+--World locking:A coordinate system (position and rotation) ties the virtual object to those real-world features.
+--Drift correction:The device constantly tracks changes in the environment to keep the digital item locked in place over time.
+
+Core Benefits--
+--Persistence: Leaving a virtual object or game setup on a real table and finding it in the exact same spot days later.
+--Shared spaces: Allowing multiple people in the same room to see and interact with the same digital objects through their own headsets.
+--Navigation: Placing virtual signs, notes, or characters that stay fixed to specific walls or pieces of furniture.
+
+Real World Exmaple--
+--Apple Vision Pro
+-Apps can remember where virtual windows were placed in a room and restore them later.
+--Microsoft HoloLens 2
+-Engineers can place persistent holographic instructions on machinery that remain in the correct location across sessions.
+--Meta Quest 3
+-Mixed reality applications can anchor virtual objects to furniture and walls so they stay in place while the user moves around.
+
+Sources--
+--MetaHorizon-https://developers.meta.com/horizon/documentation/unity/unity-spatial-anchors-overview/
+--Gemini(for conceptual understanding)
+
+Conclusion--
+-- Today I learned that spatial anchors allow virtual objects to remain fixed at specific locations in the real world, even when the user moves away or returns later.
+I also learned that persistent AR uses these anchors to create long-lasting mixed reality experiences where digital content stays connected to the physical environment. 
+These technologies make XR applications more practical for productivity, education, navigation, and collaboration.
