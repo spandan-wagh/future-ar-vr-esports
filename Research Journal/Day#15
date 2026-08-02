@@ -1,0 +1,62 @@
+Day#15 - Occlusion & Depth Perception in XR
+
+1)What is Occlusion>
+--the visual effect where real-world physical objects block or hide virtual objects. Without it, digital objects always float on top of the real world.
+
+How Occlusion Works--
+--Depth Sensing: Devices use sensors like LiDAR, stereo cameras, or depth APIs to map how far physical surfaces are from the viewer.
+--Per-Pixel Rendering: The system checks if a real object is closer than a digital one and hides the parts of the digital object that sit behind the real one.
+--Realism: If you put a virtual cat behind a real chair, the chair's legs will properly block parts of the cat
+
+Types of Occlusion--
+1)Environment Occlusion--
+--Environment occlusion happens when virtual content interacts with physical structures like walls, furniture, or outdoor objects.
+--Static Occlusion: Uses pre-scanned, unmoving 3D models of the room to hide virtual objects behind fixed structures like walls or heavy tables.
+--Dynamic Occlusion: Uses real-time depth sensors (like LiDAR) to block virtual objects behind moving physical elements, such as a person walking past.
+--Hard Occlusion: Sharp, binary cutting where a virtual object is either 100% visible or 100% hidden by a physical edge.
+--Soft Occlusion: Blends the edges of virtual and physical objects using alpha-feathering to simulate realistic lighting and camera focus.
+
+2)Hand/Body Occlusion--
+--Hand occlusion occurs when a user's own body parts correctly block or get blocked by virtual objects, which is essential for natural interaction.
+--Model-Based Hand Occlusion: Tracks hand joints to overlay an invisible 3D hand mesh that masks out any virtual content behind it.
+--Depth-Based Hand Occlusion: Extracts the raw depth map of the user's hands directly from cameras to block virtual objects without needing a joint model.
+--Self-Occlusion (Virtual): Occurs when one part of a virtual object blocks another part of the same virtual object from the user's view.
+--Mutual Occlusion: Two-way blocking where a virtual object can hide behind a physical hand, and a physical hand can also be hidden inside a virtual object.
+
+2)What is Depth Perception in XR?
+--Perception in Extended Reality (XR) is the technology and process by which a device tracks user movements and understands the physical environment, 
+primarily covering head tracking, hand tracking, and eye tracking. 
+--It acts as the bridge that allows digital elements to blend naturally with the real world.
+
+Main Types of perception--
+--User Tracking: Sensors and cameras follow your head, eyes, face, and hands so the system knows where you look and how you move.
+-- Algorithms map room depth, reconstruct 3D spaces, and label physical objects so virtual items can interact with real walls or floors.
+
+Real World Examples--
+--Apple Vision Pro
+-Uses scene understanding and depth sensing so virtual objects can correctly appear behind furniture or walls.
+--Meta Quest 3
+-Uses environment depth APIs for mixed reality experiences where virtual content interacts naturally with the room.
+--Microsoft HoloLens 2
+-Uses spatial mapping and depth information to correctly render holograms around real-world objects.
+
+Sources--
+--https://www.qualcomm.com/news/onq/2020/08/xr-user-interfaces-and-perception-technologies
+--Chatgpt/Gemini(for conceptual understanding)
+
+Conclusion--
+-- I learned today that occlusion and depth perception are key to making mixed reality experiences feel real. Occlusion allows virtual objects to be properly rendered behind or
+in front of real objects . Depth perception allows users to naturally estimate the distance and position of virtual content .These technologies together make XR environments more
+immersive, and interactive.
+
+
+
+
+
+
+
+
+
+
+
+
