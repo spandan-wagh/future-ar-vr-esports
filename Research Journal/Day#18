@@ -1,0 +1,32 @@
+Day#18 - Stereo Rendering & 3D Vision in XR
+
+Introduction--
+--Stereo rendering in Extended Reality (XR) creates two slightly different images, one for each eye. The brain combines these images to create the perception of depth, making virtual environments appear three-dimensional and realistic.
+
+How it works--
+--Each eye naturally sees the world from a slightly different angle because of the distance between our eyes (Interpupillary Distance or IPD).
+--The XR headset renders one image for the left eye and another for the right eye.
+--The brain combines these two images to perceive depth and distance.
+--If the headset's focus and eye convergence do not match correctly, users may experience eye strain or visual discomfort (Vergence-Accommodation Conflict).
+
+Rendering Techniques & Performance Optimization--
+--Multi-Pass Rendering: The scene is rendered twice, once for each eye. This provides good compatibility but requires more GPU processing.
+--Single-Pass Rendering: The GPU renders both eye views together, reducing processing time and improving performance.
+--These rendering techniques help maintain smooth frame rates while delivering realistic 3D visuals.
+
+Core Benefits--
+--Stereo rendering provides realistic depth perception and helps users judge the size, distance, and position of virtual objects.
+--It makes virtual environments feel more immersive and natural.
+
+Real-World Examples--
+--Meta Quest 3
+-Renders separate images for the left and right eyes to create stereoscopic 3D vision.
+
+--Apple Vision Pro
+-Uses high-resolution micro-OLED displays with stereo rendering to produce realistic depth perception.
+
+--PlayStation VR2
+-Uses stereoscopic rendering together with eye tracking to improve immersion.
+
+Sources--
+--ChatGPT (for conceptual understanding)
