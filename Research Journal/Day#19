@@ -1,0 +1,36 @@
+Day#19 - Motion Reprojection & Asynchronous Timewarp (ATW)
+
+Introduction--
+--Motion Reprojection and Asynchronous Timewarp (ATW) are virtual reality technologies designed to maintain high frame rates and prevent motion sickness.
+--ATW adjusts previously rendered frames using the latest head rotation data to reduce latency, while motion reprojection synthesizes intermediate frames when a system misses its target refresh rate.
+
+How Asynchronous Timewarp (ATW) Works--
+--Independent loop: Runs asynchronously from the main application rendering loop on the GPU.
+--Rotation correction: Takes the last available frame and warps it based on your latest head rotation (orientation) just before display.
+--Judder reduction: Prevents visual stutter when a game fails to deliver a new frame on time, lowering the chance of nausea.
+--Limitation: Does not account for physical position shifts (translation), which can cause minor close-up warping artifacts.
+
+How Motion Reprojection Works--
+--Frame interpolation: Generates entirely synthetic intermediate frames when frame rates drop significantly (e.g., halving from 90Hz to 45Hz and filling in the gaps).
+--Positional compensation: Unlike basic ATW, advanced reprojection forms (like Asynchronous Spacewarp) factor in both head rotation and translational movement vectors.
+--: Can introduce "ghosting" or halo effects around moving objects if the system guesses motion incorrectly.
+
+Key Benefits--
+Less Choppiness (Judder): Fixes stuttering images when your computer drops frames.
+--Lower Latency: Cuts down the delay between turning your head and seeing the screen move.
+--Comfort: Helps stop dizziness and headaches so you can play longer.
+--Better Performance: Acts as a safety net when your computer is too busy to render a full new frame in time.
+
+Real World Example--
+--Meta Quest 3
+-Uses Asynchronous Timewarp to keep head tracking responsive even when frame rendering slows down.
+--SteamVR
+-Uses Motion Smoothing (a form of motion reprojection) to improve smoothness when the GPU cannot maintain the target frame rate.
+--PlayStation VR2
+-Uses reprojection techniques to maintain comfortable VR performance during demanding scenes.
+
+Sources--
+--Meta Store-https://developers.meta.com/horizon/blog/asynchronous-timewarp-on-oculus-rift/
+--Chatgpt/Gemini(for conceptual understanding).
+
+
